@@ -1,0 +1,51 @@
+body {
+    background-color: #F2F1F0;
+    color: #0D0D0D;
+    padding: 10%;
+}
+
+.cabecalho_pagina1 {
+    font-family: "Open Sans", sans-serif; 
+    font-weight: 800;
+    padding: auto;
+    text-align: right;
+}
+
+.descricao_pagina1 {
+    font-family: "Open Sans", sans-serif;
+    font-weight: 700;
+    font-size: 10px;
+    text-align: right;
+    padding: 0 0 0 0px;
+}
+
+.img_bemvindo {
+    height: 300px;
+    width: 300px;
+}
+
+.img_linkedin {
+    height: 50px;
+    width: 50px;
+}
+
+.img_github {
+    height: 50px;
+    width: 50px;
+}
+
+.img_contatos {
+    display: flex;
+    height: 50px;
+    width: 50px;
+}
+
+.conteudo_base1 {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 2%;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap')
